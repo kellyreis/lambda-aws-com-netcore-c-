@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Lambda-usandoSDK\\Lambda-usandoSDK.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Domain\\Domain.csproj": {
+    "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Lambda-usandoSDK\\Lambda-usandoSDK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Lambda-usandoSDK\\Lambda-usandoSDK.csproj",
+        "projectName": "Lambda-usandoSDK",
+        "projectPath": "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Lambda-usandoSDK\\Lambda-usandoSDK.csproj",
         "packagesPath": "C:\\Users\\Kelly\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\Lambda-usandoSDK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kelly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.Lambda": {
+              "target": "Package",
+              "version": "[3.7.300.1, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

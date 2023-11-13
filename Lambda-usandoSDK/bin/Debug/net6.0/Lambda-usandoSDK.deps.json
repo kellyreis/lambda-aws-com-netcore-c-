@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lambda-usandoSDK/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Lambda": "3.7.300.1",
+          "Amazon.Lambda.Core": "2.2.0"
+        },
+        "runtime": {
+          "Lambda-usandoSDK.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.2.0": {
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.300.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.300.1"
+          }
+        }
+      },
+      "AWSSDK.Lambda/3.7.300.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.300.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Lambda.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.300.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lambda-usandoSDK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHqKeD1CYocP0t1dJC/NaXfu+5k6AoqnQ1Hlu/J2mXpLpCyeJfY+tIqT5fpruDarUlU0NtdIH8zSkCjeinyb1A==",
+      "path": "amazon.lambda.core/2.2.0",
+      "hashPath": "amazon.lambda.core.2.2.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.300.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bzm8H4hJNVTOzSo3Kpy3DqyCnVQRFklAxz+CSvyPLMQdqmS0bsyPogqtHnJNQC3ccqYj0to7axqarWn+Me62tg==",
+      "path": "awssdk.core/3.7.300.1",
+      "hashPath": "awssdk.core.3.7.300.1.nupkg.sha512"
+    },
+    "AWSSDK.Lambda/3.7.300.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TYqcIIdC4/1ztMmTCOmHlMyz6Uk0heOouab73BekqrhULvR8WaaXyIwBAyvnrK2fu5WBhuffPn8O1CjqyN73LQ==",
+      "path": "awssdk.lambda/3.7.300.1",
+      "hashPath": "awssdk.lambda.3.7.300.1.nupkg.sha512"
+    }
+  }
+}

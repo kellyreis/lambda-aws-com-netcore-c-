@@ -1,14 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qArHSGZPjriXcaNaG8M4PsOV/2c7T1lFb0k3hjD8j4PqhMEWoT0Zaw9qA1+R4FDOOu9POkwhIQR516FMDzMnhw==",
+  "dgSpecHash": "hhHqV25Ch/el2YL61kSQV1Ky/7yMOuksnmeaEsa6yRVb3wnTmA4pMcLI+1tMnakVM+GU75EVceR6CI1W61NLeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kelly\\source\\repos\\kellyreis\\lambda-aws-com-netcore-c-\\lambda\\src\\lambda\\Aws.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kelly\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.0\\amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512",
     "C:\\Users\\Kelly\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
     "C:\\Users\\Kelly\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.1\\amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",
-    "C:\\Users\\Kelly\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.16\\microsoft.netcore.app.runtime.linux-x64.6.0.16.nupkg.sha512",
-    "C:\\Users\\Kelly\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.16.nupkg.sha512",
     "C:\\Users\\Kelly\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.16\\microsoft.netcore.app.crossgen2.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []

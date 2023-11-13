@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lambda.Tests", "lambda\test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{436DA617-55D0-472F-91C8-78D4A7C88F9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda-usandoSDK", "Lambda-usandoSDK\Lambda-usandoSDK.csproj", "{48CE9515-65DB-492A-9C32-55E3F9D2EE28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{436DA617-55D0-472F-91C8-78D4A7C88F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{436DA617-55D0-472F-91C8-78D4A7C88F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{436DA617-55D0-472F-91C8-78D4A7C88F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48CE9515-65DB-492A-9C32-55E3F9D2EE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CE9515-65DB-492A-9C32-55E3F9D2EE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48CE9515-65DB-492A-9C32-55E3F9D2EE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48CE9515-65DB-492A-9C32-55E3F9D2EE28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
